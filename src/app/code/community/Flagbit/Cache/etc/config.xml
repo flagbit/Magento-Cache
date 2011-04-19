@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Flagbit_Cache>
+            <version>0.1.0</version>
+        </Flagbit_Cache>
+    </modules>
+    
+    <global>
+    	<!-- can not overwritten here, please copy rewrite information to local.xml -->
+        <models>    	
+            <core>
+            	<rewrite>
+                	<cache>Flagbit_Cache_Model_Cache</cache>
+				</rewrite>
+            </core>
+        </models>
+    </global>
+	
+</config>

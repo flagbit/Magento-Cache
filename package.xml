@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>CustomerSpecificPricing</name>
+ <channel>connect.magentocommerce.com/community</channel>
+ <summary>define Customer specific Prices</summary>
+ <description>define Customer specific Prices</description>
+ <lead>
+  <name>Flagbit GmbH &amp; Co. KG</name>
+  <user>flagbit</user>
+  <email>magento@flagbit.de</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-12-01</date>
+ <time>14:58:48</time>
+ <version>
+  <release>0.1.2</release>
+  <api>0.1.2</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>GPL</license>
+ <notes>
+first Release
+ </notes>
+ <contents>
+  <dir name="/">
+   <dir name="Flagbit">
+    <dir name="CustomerSpecificPricing">
+     <dir name="etc">
+      <file md5sum="138cbed1ae59ab9db7561b18ae58c299" name="config.xml" role="magecommunity" />
+     </dir> <!-- /Flagbit/CustomerSpecificPricing/etc -->
+     <dir name="Helper">
+      <file md5sum="9fff5c13c6f186bdfafc97f9bf32968b" name="Data.php" role="magecommunity" />
+     </dir> <!-- /Flagbit/CustomerSpecificPricing/Helper -->
+     <dir name="Model">
+      <dir name="Catalog">
+       <dir name="Resource">
+        <dir name="Eav">
+         <dir name="Mysql4">
+          <dir name="Layer">
+           <dir name="Filter">
+            <file md5sum="5efb4c16920d729a802a85ee84cf5726" name="Price.php" role="magecommunity" />
+           </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog/Resource/Eav/Mysql4/Layer/Filter -->
+          </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog/Resource/Eav/Mysql4/Layer -->
+          <dir name="Product">
+           <file md5sum="a439945bba4420837dc51c884b514eac" name="Collection.php" role="magecommunity" />
+          </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog/Resource/Eav/Mysql4/Product -->
+         </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog/Resource/Eav/Mysql4 -->
+        </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog/Resource/Eav -->
+       </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog/Resource -->
+      </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Catalog -->
+      <dir name="CatalogSearch">
+       <dir name="Mysql4">
+        <dir name="Advanced">
+         <file md5sum="ae6c6038c536704be83887484793fbaf" name="Collection.php" role="magecommunity" />
+        </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/CatalogSearch/Mysql4/Advanced -->
+        <dir name="Fulltext">
+         <file md5sum="0f547a3f34fe1e54724ace336f041484" name="Collection.php" role="magecommunity" />
+        </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/CatalogSearch/Mysql4/Fulltext -->
+        <dir name="Search">
+         <file md5sum="48cb95e68b6bd79b5d7849bd272c258b" name="Collection.php" role="magecommunity" />
+        </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/CatalogSearch/Mysql4/Search -->
+       </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/CatalogSearch/Mysql4 -->
+      </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/CatalogSearch -->
+      <dir name="Customer">
+       <file md5sum="5e2788eb5f305e157bf18e77bee4138c" name="Price.php" role="magecommunity" />
+      </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Customer -->
+      <dir name="Mysql4">
+       <dir name="Customer">
+        <file md5sum="17fed55642bb440ace5526a145237d58" name="Price.php" role="magecommunity" />
+       </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Mysql4/Customer -->
+      </dir> <!-- /Flagbit/CustomerSpecificPricing/Model/Mysql4 -->
+      <file md5sum="1096d91459f505f97864fcdf8c3a560b" name="Observer.php" role="magecommunity" />
+     </dir> <!-- /Flagbit/CustomerSpecificPricing/Model -->
+     <dir name="sql">
+      <dir name="flagbit_customerspecificpricing_setup">
+       <file md5sum="cb32775563404ae48d9168a0cade4bfd" name="mysql4-install-0.1.0.php" role="magecommunity" />
+      </dir> <!-- /Flagbit/CustomerSpecificPricing/sql/flagbit_customerspecificpricing_setup -->
+     </dir> <!-- /Flagbit/CustomerSpecificPricing/sql -->
+    </dir> <!-- /Flagbit/CustomerSpecificPricing -->
+   </dir> <!-- /Flagbit -->
+   <dir name="modules">
+    <file md5sum="d9503109ca2ba31c53c38c6088327c96" name="Flagbit_CustomerSpecificPricing.xml" role="mageetc" />
+   </dir> <!-- /modules -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+    <max>5.3.0</max>
+   </php>
+   <pearinstaller>
+    <min>1.6.2</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-12-01</date>
+   <license>GPL</license>
+   <notes>
+first Release
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Flagbit_Cache>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Flagbit_Cache>
+	</modules>
+</config>
